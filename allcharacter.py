@@ -12,7 +12,6 @@ def unique_character(x):
         for i in range(len(x)-1):
             if x[i+1] not in character:
                 character.append(x[i+1])
-        print(character)
         if len(character) == len(x):
             return True
         else:
