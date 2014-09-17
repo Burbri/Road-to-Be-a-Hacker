@@ -7,14 +7,15 @@ __author__ = 'Boh'
 ##I've also noticed that whenever I input two strings that have same length, str1dic and str2dic ends up always being the same.
 ##I don't get dictionary
 
+import copy
 
 def anagram(str1, str2):
     if len(str1) != len(str2):
         return False
     else:
         strdic = {x: 0 for x in 'abcdefghijklmnoprstuvwxyz '}
-        str1dic = strdic
-        str2dic = strdic
+        str1dic = copy.copy(strdic)
+        str2dic = copy.copy(strdic)
         for i in range(len(str1)):
             str1dic[str1[i]] += 1
             str2dic[str2[i]] += 1
