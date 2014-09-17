@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddf54523-01d1-4abc-8ea2-01a4e331a1e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/change_to_20.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/change_to_20_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anagram.py" afterPath="$PROJECT_DIR$/anagram.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ddf54523-01d1-4abc-8ea2-01a4e331a1e8" name="Default" comment="" />
     <ignored path="Road_to_Be_a_Hacker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
