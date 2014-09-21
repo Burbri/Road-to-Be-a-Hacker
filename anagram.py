@@ -6,7 +6,10 @@ __author__ = 'Boh'
 ##There is a huge problem in this funcion that i can't figure out why. So anagram('aabc','bbca') gives True
 ##I've also noticed that whenever I input two strings that have same length, str1dic and str2dic ends up always being the same.
 ##I don't get dictionary
+<<<<<<< HEAD
 
+=======
+>>>>>>> aad526a032a648164fc5ece4de131daa8c213835
 import copy
 
 def anagram(str1, str2):
